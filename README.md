@@ -78,6 +78,12 @@ Documentação interativa:
 
 ## Exemplos de Uso
 
+### Listar todos os livros
+
+```http
+GET /api/v1/books/
+```
+
 ### Buscar livros por categoria
 
 ```http
@@ -88,4 +94,10 @@ GET /api/v1/books/?category=Science
 
 ```http
 GET /api/v1/books/42
+```
+
+### Listar categorias
+
+```http
+GET /api/v1/categories
 ```
