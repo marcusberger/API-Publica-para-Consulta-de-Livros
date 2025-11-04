@@ -15,20 +15,6 @@ Criar um pipeline de dados escalável e reutilizável que permita:
 
 ---
 
-## Arquitetura do Projeto
-
-```text
-[Books to Scrape]
-      ↓
-[scripts/scrape_books.py]
-      ↓
-[data/books.csv]
-      ↓
-[API FastAPI]
-      ↓
-[Usuários / Cientistas de Dados / Modelos ML]
-```
-
 ---
 
 ## Instalação e Execução Local
