@@ -63,3 +63,4 @@ def scrape_all_books():
 
 if __name__ == "__main__":
     scrape_all_books()
+    
